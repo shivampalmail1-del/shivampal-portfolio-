@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Shivam Pal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <nav class="nav scrolled">
+    <a href="index.html" class="nav-logo">S<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-hamburger"><span></span><span></span><span></span></div>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header" style="padding-top:var(--nav-h);">
+    <div class="page-header-num">04</div>
+    <div class="page-header-content">
+      <div class="section-tag reveal">My Work</div>
+      <h1 class="section-h2 reveal reveal-delay-1" style="font-size:clamp(3rem,7vw,7rem);">
+        My <em>Selected</em><br>Work
+      </h1>
+    </div>
+  </header>
+
+  <!-- FILTER + GRID -->
+  <section class="section">
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="graphics">Graphics</button>
+      <button class="filter-btn" data-filter="vfx">VFX</button>
+      <button class="filter-btn" data-filter="motion">Motion</button>
+      <button class="filter-btn" data-filter="video">Video</button>
+    </div>
+
+    <div class="portfolio-grid">
+      <a href="https://youtu.be/wCGYivxWnOo" target="_blank" rel="noopener" class="port-card reveal" data-category="vfx">
+        <img src="https://img.youtube.com/vi/wCGYivxWnOo/hqdefault.jpg" alt="VFX project video thumbnail" class="port-card-thumb" />
+        <div class="port-card-overlay">
+          <div class="port-tag">VFX & Compositing</div>
+          <div class="port-title">VFX Project</div>
+          <span class="port-link">Watch on YouTube -></span>
+        </div>
+      </a>
+
+      <a href="https://youtu.be/iFoSpvEtDz0" target="_blank" rel="noopener" class="port-card reveal reveal-delay-1" data-category="motion">
+        <img src="https://img.youtube.com/vi/iFoSpvEtDz0/hqdefault.jpg" alt="Motion graphics video thumbnail" class="port-card-thumb" />
+        <div class="port-card-overlay">
+          <div class="port-tag">Motion Graphics</div>
+          <div class="port-title">Motion Project</div>
+          <span class="port-link">Watch on YouTube -></span>
+        </div>
+      </a>
+
+      <a href="https://youtu.be/NFBFGb6aePA" target="_blank" rel="noopener" class="port-card reveal reveal-delay-2" data-category="graphics">
+        <img src="https://img.youtube.com/vi/NFBFGb6aePA/hqdefault.jpg" alt="Graphics design video thumbnail" class="port-card-thumb" />
+        <div class="port-card-overlay">
+          <div class="port-tag">Graphics Design</div>
+          <div class="port-title">Graphics Project</div>
+          <span class="port-link">Watch on YouTube -></span>
+        </div>
+      </a>
+
+      <a href="https://youtu.be/yb3fUc-hX40" target="_blank" rel="noopener" class="port-card reveal" data-category="video">
+        <img src="https://img.youtube.com/vi/yb3fUc-hX40/hqdefault.jpg" alt="Video editing project thumbnail" class="port-card-thumb" />
+        <div class="port-card-overlay">
+          <div class="port-tag">Video Editing</div>
+          <div class="port-title">Video Edit</div>
+          <span class="port-link">Watch on YouTube -></span>
+        </div>
+      </a>
+
+      <a href="https://youtu.be/4KhH-3AV4as" target="_blank" rel="noopener" class="port-card reveal reveal-delay-1" data-category="video">
+        <img src="https://img.youtube.com/vi/4KhH-3AV4as/hqdefault.jpg" alt="Cinematic video project thumbnail" class="port-card-thumb" />
+        <div class="port-card-overlay">
+          <div class="port-tag">Video Editing</div>
+          <div class="port-title">Cinematic Video Project</div>
+          <span class="port-link">Watch on YouTube -></span>
+        </div>
+      </a>
+
+      <a href="https://www.behance.net/gallery/241172913/magazine-cover" target="_blank" rel="noopener" class="port-card reveal reveal-delay-2" data-category="graphics">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/7508e2241172913.6950a2db5650c.jpeg" alt="Magazine cover design thumbnail" class="port-card-thumb" />
+        <div class="port-card-overlay">
+          <div class="port-tag">Graphics Design</div>
+          <div class="port-title">Magazine Cover</div>
+          <span class="port-link">View on Behance -></span>
+        </div>
+      </a>
+
+      <a href="https://www.behance.net/gallery/241179027/poster-and-layout" target="_blank" rel="noopener" class="port-card reveal" data-category="graphics">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/35afb4241179027.6950eae978c99.png" alt="Poster and layout design thumbnail" class="port-card-thumb" />
+        <div class="port-card-overlay">
+          <div class="port-tag">Layout Design</div>
+          <div class="port-title">Poster & Layout</div>
+          <span class="port-link">View on Behance -></span>
+        </div>
+      </a>
+
+      <a href="https://www.behance.net/gallery/240914215/poster-design" target="_blank" rel="noopener" class="port-card reveal reveal-delay-1" data-category="graphics">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/00faf0240914215.69496e7b9b6cf.jpg" alt="Poster design thumbnail" class="port-card-thumb" />
+        <div class="port-card-overlay">
+          <div class="port-tag">Poster Design</div>
+          <div class="port-title">Poster Design</div>
+          <span class="port-link">View on Behance -></span>
+        </div>
+      </a>
+
+      <a href="https://www.behance.net/gallery/240908381/business-card-design" target="_blank" rel="noopener" class="port-card reveal reveal-delay-2" data-category="graphics">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/da3cfb240908381.69495612e3d35.jpg" alt="Business card design thumbnail" class="port-card-thumb" />
+        <div class="port-card-overlay">
+          <div class="port-tag">Branding</div>
+          <div class="port-title">Business Card Design</div>
+          <span class="port-link">View on Behance -></span>
+        </div>
+      </a>
+
+      <a href="https://www.behance.net/gallery/238838551/mood-board-design" target="_blank" rel="noopener" class="port-card reveal" data-category="graphics">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/ad5115238838551.691cc8d7e1faa.jpg" alt="Mood board design thumbnail" class="port-card-thumb" />
+        <div class="port-card-overlay">
+          <div class="port-tag">Graphic Design</div>
+          <div class="port-title">Mood Board Design</div>
+          <span class="port-link">View on Behance -></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">S<span>.</span></div>
+        <p class="footer-tagline">I create visuals that don't just look good, but feel right.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Links</div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">My Platforms</div>
+        <a href="https://www.youtube.com/@ShivamPal-sg6mi" target="_blank">YouTube Channel</a>
+        <a href="https://www.behance.net/shivampal131" target="_blank">Behance Profile</a>
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">LinkedIn</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Services</div>
+        <a href="services.html">Graphics Design</a>
+        <a href="services.html">VFX & Compositing</a>
+        <a href="services.html">Motion Graphics</a>
+        <a href="services.html">Video Editing</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Shivam Pal. All rights reserved.</span>
+      <div class="footer-socials">
+        <a href="https://www.behance.net/shivampal131" target="_blank">Be</a>
+        <a href="https://www.youtube.com/@ShivamPal-sg6mi" target="_blank">▶</a>
+        <a href="#" target="_blank">Ig</a>
+        <a href="#" target="_blank">in</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Shivam Pal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <nav class="nav scrolled">
+    <a href="index.html" class="nav-logo">S<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-hamburger"><span></span><span></span><span></span></div>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header" style="padding-top:var(--nav-h);">
+    <div class="page-header-num">05</div>
+    <div class="page-header-content">
+      <div class="section-tag reveal">Get in Touch</div>
+      <h1 class="section-h2 reveal reveal-delay-1" style="font-size:clamp(2.5rem,7vw,7rem);">
+        Let's Create<br><em>Something Amazing.</em>
+      </h1>
+    </div>
+  </header>
+
+  <!-- CONTACT MAIN -->
+  <section class="section">
+    <div class="contact-grid">
+
+      <!-- LEFT: INFO -->
+      <div>
+        <div class="section-tag reveal">Contact Info</div>
+        <p class="reveal" style="color:var(--gray);font-size:0.9rem;line-height:1.9;margin-bottom:2.5rem;">
+          Got a project in mind? Let's bring your ideas to life.
+          I'm open to freelance projects, collaborations, and creative partnerships.
+          Drop me a message — let's talk.
+        </p>
+
+        <div class="contact-info-item reveal">
+          <div class="contact-info-icon">✉</div>
+          <div>
+            <div class="contact-info-label">Email</div>
+            <a href="mailto:shivampalmail1@gmail.com" class="contact-info-value">shivampalmail1@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item reveal reveal-delay-1">
+          <div class="contact-info-icon">▶</div>
+          <div>
+            <div class="contact-info-label">YouTube</div>
+            <a href="https://www.youtube.com/@ShivamPal-sg6mi" target="_blank" class="contact-info-value" style="transition:color 0.3s;">@ShivamPal-sg6mi</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item reveal reveal-delay-2">
+          <div class="contact-info-icon">Be</div>
+          <div>
+            <div class="contact-info-label">Behance</div>
+            <a href="https://www.behance.net/shivampal131" target="_blank" class="contact-info-value">behance.net/shivampal131</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item reveal">
+          <div class="contact-info-icon">Ig</div>
+          <div>
+            <div class="contact-info-label">Instagram</div>
+            <a href="https://www.instagram.com/shivam01_pal" target="_blank" class="contact-info-value">@shivam01_pal</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item reveal reveal-delay-1">
+          <div class="contact-info-icon">in</div>
+          <div>
+            <div class="contact-info-label">LinkedIn</div>
+            <a href="https://www.linkedin.com/feed/" target="_blank" class="contact-info-value">linkedin.com/in/shivampal</a>
+          </div>
+        </div>
+
+        <!-- SOCIAL ICONS -->
+        <div class="contact-social reveal reveal-delay-2">
+          <a href="https://www.youtube.com/@ShivamPal-sg6mi" target="_blank" class="social-icon" title="YouTube">▶</a>
+          <a href="https://www.behance.net/shivampal131" target="_blank" class="social-icon" title="Behance" style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;">Be</a>
+          <a href="https://www.instagram.com/shivam01_pal" target="_blank" class="social-icon" title="Instagram" style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;">Ig</a>
+          <a href="https://www.linkedin.com/feed/" target="_blank" class="social-icon" title="LinkedIn" style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;">in</a>
+        </div>
+      </div>
+
+      <!-- RIGHT: FORM -->
+      <div>
+        <div class="section-tag reveal">Send a Message</div>
+
+        <!-- Formspree success message -->
+        <div data-fs-success style="display:none;padding:1.5rem;border:1px solid var(--red);background:rgba(209,18,18,0.08);font-family:var(--font-cond);font-size:0.9rem;letter-spacing:1px;color:var(--white);margin-bottom:1.5rem;">
+          ✓ &nbsp;Message sent! I'll get back to you within 24 hours.
+        </div>
+        <!-- Formspree form-level error -->
+        <div data-fs-error style="display:none;padding:1rem;border:1px solid #a00d0d;background:rgba(160,13,13,0.1);font-family:var(--font-cond);font-size:0.85rem;color:#f88;margin-bottom:1.5rem;"></div>
+
+        <form class="contact-form reveal reveal-delay-1" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Your Name</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Shivam Pal" required data-fs-field />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="hello@example.com" required data-fs-field />
+              <span data-fs-error="email" style="font-size:0.78rem;color:#f88;font-family:var(--font-cond);letter-spacing:1px;"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject</label>
+            <input class="form-input" type="text" id="subject" name="subject" placeholder="Project Inquiry / Collaboration" data-fs-field />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="service">Service Needed</label>
+            <select class="form-input" id="service" name="service" style="cursor:pointer;appearance:none;">
+              <option value="" disabled selected>Select a service</option>
+              <option value="graphics">Graphics Design</option>
+              <option value="vfx">VFX & Compositing</option>
+              <option value="motion">Motion Graphics</option>
+              <option value="video">Video Editing</option>
+              <option value="color">Color Grading</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Your Message</label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="Tell me about your project, timeline, budget and vision..." required data-fs-field></textarea>
+            <span data-fs-error="message" style="font-size:0.78rem;color:#f88;font-family:var(--font-cond);letter-spacing:1px;"></span>
+          </div>
+
+          <button type="submit" class="btn" style="width:100%;justify-content:center;" data-fs-submit-btn>
+            <span>Send Message</span>
+            <span class="btn-arrow">→</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="section" style="background:var(--black-soft);border-top:1px solid var(--black-border);">
+    <div style="max-width:700px;margin:0 auto;">
+      <div class="section-tag reveal" style="justify-content:center;">FAQ</div>
+      <h2 class="section-h2 reveal reveal-delay-1" style="text-align:center;margin-bottom:3rem;">Common <em>Questions</em></h2>
+
+      <div id="faq"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">S<span>.</span></div>
+        <p class="footer-tagline">I create visuals that don't just look good, but feel right.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Links</div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Services</div>
+        <a href="services.html">Graphics Design</a>
+        <a href="services.html">VFX & Compositing</a>
+        <a href="services.html">Motion Graphics</a>
+        <a href="services.html">Video Editing</a>
+        <a href="services.html">Color Grading</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Follow Me</div>
+        <a href="https://www.youtube.com/@ShivamPal-sg6mi" target="_blank">YouTube</a>
+        <a href="https://www.behance.net/shivampal131" target="_blank">Behance</a>
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Shivam Pal. All rights reserved.</span>
+      <div class="footer-socials">
+        <a href="https://www.behance.net/shivampal131" target="_blank">Be</a>
+        <a href="https://www.youtube.com/@ShivamPal-sg6mi" target="_blank">▶</a>
+        <a href="#" target="_blank">Ig</a>
+        <a href="#" target="_blank">in</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* FAQ accordion — inline for page-specific behavior */
+    const faqs = [
+      { q: "What's your typical turnaround time?", a: "It depends on the project scope. A logo design takes 3–5 days, a motion graphics piece 5–10 days, and video editing 2–7 days. I'll give you a clear timeline before we start." },
+      { q: "Do you work with international clients?", a: "Absolutely! I work with clients from around the world. Communication is done via email and video calls, with files delivered digitally." },
+      { q: "What file formats do you deliver?", a: "I deliver in whatever format you need — PNG, JPG, PDF, AI, MP4, MOV, and project files (AE, PR, PSD) on request." },
+      { q: "How do we start working together?", a: "Simply fill out the contact form or email me with your project brief. I'll get back to you within 24 hours to discuss details." },
+      { q: "Do you offer revisions?", a: "Yes! I offer revision rounds as part of every project. The number depends on the project scope, and we'll agree on this upfront." },
+    ];
+    const faqEl = document.getElementById('faq');
+    faqs.forEach((item, i) => {
+      faqEl.innerHTML += `
+        <div class="faq-item reveal" style="border-bottom:1px solid var(--black-border);">
+          <button onclick="toggleFaq(${i})" style="width:100%;display:flex;justify-content:space-between;align-items:center;padding:1.5rem 0;background:none;border:none;color:var(--white);cursor:none;text-align:left;gap:1rem;">
+            <span style="font-family:var(--font-cond);font-size:1rem;font-weight:600;letter-spacing:1px;">${item.q}</span>
+            <span id="faq-icon-${i}" style="color:var(--red);font-size:1.2rem;flex-shrink:0;transition:transform 0.3s;">+</span>
+          </button>
+          <div id="faq-ans-${i}" style="max-height:0;overflow:hidden;transition:max-height 0.4s ease;">
+            <p style="color:var(--gray);font-size:0.9rem;line-height:1.8;padding-bottom:1.5rem;">${item.a}</p>
+          </div>
+        </div>
+      `;
+    });
+    function toggleFaq(i) {
+      const ans  = document.getElementById('faq-ans-' + i);
+      const icon = document.getElementById('faq-icon-' + i);
+      const isOpen = ans.style.maxHeight && ans.style.maxHeight !== '0px';
+      // Close all
+      document.querySelectorAll('[id^="faq-ans-"]').forEach(el => el.style.maxHeight = '0px');
+      document.querySelectorAll('[id^="faq-icon-"]').forEach(el => { el.textContent = '+'; el.style.transform = ''; });
+      if (!isOpen) {
+        ans.style.maxHeight = ans.scrollHeight + 'px';
+        icon.textContent = '−';
+        icon.style.transform = 'rotate(180deg)';
+      }
+    }
+  </script>
+  <script src="script.js"></script>
+  <script>
+    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+    formspree('initForm', { formElement: '#contactForm', formId: 'meedvyww' });
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+</body>
+</html>
